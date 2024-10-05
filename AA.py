@@ -4,8 +4,8 @@ import pickle
 import numpy as np
 
 # Construct the absolute path for the model and scaler
-model_path = os.path.join(os.path.dirname(__file__), 'model', 'finalized21_model.pickle')
-scaler_path = os.path.join(os.path.dirname(__file__), 'model', 'scaler.pickle')
+model_path =  'finalized21_model.pickle'
+scaler_path =  'scaler.pickle'
 
 # Load the trained model
 with open(model_path, 'rb') as f:
